@@ -18,7 +18,7 @@ export default function Layout({ title, keywords, description, children }) {
       </Head>
 
       <Header />
-      <div className={styles.container}>{children}</div>
+      <div className="max-w-5xl mx-auto px-10 mt-10">{children}</div>
       <Footer />
     </div>
   );
